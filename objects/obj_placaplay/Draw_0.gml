@@ -7,7 +7,7 @@ draw_set_colour(cor)
 switch(texto)
 {
 	case "maior\npontuacao":
-	draw_text(x,y,texto +"\n" + string(global.recorde))
+	draw_text(x,y,texto +"\n" + string(recorde))
 	break
 	
 	default:

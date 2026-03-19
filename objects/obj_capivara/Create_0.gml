@@ -3,3 +3,4 @@ velv = 7
 movv = 0
 velh = 1
 global.altura = 0
+sprite_index = asset_get_index("spr_" + global.skin)
