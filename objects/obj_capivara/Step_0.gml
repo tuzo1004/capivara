@@ -33,3 +33,4 @@ if place_meeting(x,y+movv,obj_plataforma) && movv > 0
 scr_movimentacaodaroom()
 
 y+=movv-global.movy
+show_debug_message(WAVE)

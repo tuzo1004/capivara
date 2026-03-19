@@ -1,0 +1,12 @@
+draw_self()
+var altura = floor(global.altura)
+draw_set_halign(fa_left)
+draw_set_valign(fa_middle)
+draw_set_colour(c_yellow)
+draw_set_font(Font2_hud)
+var larg = 5
+draw_text(larg,10,(altura))
+draw_set_colour(c_purple)
+var acais = string(global.acais)
+draw_text(larg,25,acais)
+draw_sprite(spr_acai,2,larg+10+string_length(acais)*5,25)

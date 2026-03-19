@@ -18,6 +18,10 @@ switch tipodeplataforma
 		vel = -vel
 	}
 	x+=vel
+	with coletavel
+	{
+		x = other.x
+	}
 	break
 	
 	case spr_plataformafolha:
@@ -29,7 +33,7 @@ switch tipodeplataforma
 	break
 }
 
-if altura > room_height
+if altura-sprite_height/2 > room_height
 {
 	obj_jogo.podecriar = true
 	instance_destroy()

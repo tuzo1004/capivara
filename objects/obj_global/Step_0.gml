@@ -1,0 +1,1 @@
+if floor(global.altura) > global.recorde  global.recorde = floor(global.altura)

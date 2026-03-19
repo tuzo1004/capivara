@@ -6,7 +6,7 @@ function scr_movimentacaodaroom(){
 			global.movy = movv
 		}
 		global.movy = clamp(global.movy,movv,0)
-		if global.movy != 0 global.altura++
+		if global.movy != 0 global.altura+=1/5
 	
 	}
 	else 
