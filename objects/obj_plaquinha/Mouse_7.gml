@@ -1,1 +1,1 @@
-room_goto(destino)
+scr_mudar_de_sala(destino)

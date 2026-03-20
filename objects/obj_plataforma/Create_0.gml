@@ -7,7 +7,7 @@ image_xscale = choose(-1,1)
 vel = choose(-1,1)
 colidiu = false
 altura = y
-var acai = irandom_range(0,4)
+var acai = irandom_range(0,2)
 if acai == 1
 {
 	coletavel = instance_create_layer(x,y-sprite_get_height(tipodeplataforma)-8,"Instances",obj_acai)

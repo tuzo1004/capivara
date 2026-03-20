@@ -60,6 +60,7 @@
     {"id":{"name":"rm_skin","path":"rooms/rm_skin/rm_skin.yy",},},
     {"id":{"name":"iniciar","path":"scripts/iniciar/iniciar.yy",},},
     {"id":{"name":"scr_movimentacaodaroom","path":"scripts/scr_movimentacaodaroom/scr_movimentacaodaroom.yy",},},
+    {"id":{"name":"scr_mudar_de_sala","path":"scripts/scr_mudar_de_sala/scr_mudar_de_sala.yy",},},
     {"id":{"name":"spr_acai","path":"sprites/spr_acai/spr_acai.yy",},},
     {"id":{"name":"spr_basemenu","path":"sprites/spr_basemenu/spr_basemenu.yy",},},
     {"id":{"name":"spr_baserecorde","path":"sprites/spr_baserecorde/spr_baserecorde.yy",},},

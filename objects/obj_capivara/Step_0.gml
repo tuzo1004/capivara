@@ -34,3 +34,4 @@ scr_movimentacaodaroom()
 
 y+=movv-global.movy
 show_debug_message(WAVE)
+if bbox_bottom > room_height scr_mudar_de_sala(rm_menu)

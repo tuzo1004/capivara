@@ -1,2 +1,2 @@
 if texto != "jogar" exit
-room_goto(rm_jogo)
+scr_mudar_de_sala(destino)
