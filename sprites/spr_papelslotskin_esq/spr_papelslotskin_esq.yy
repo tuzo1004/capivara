@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_slotskinesq",
+  "%Name":"spr_papelslotskin_esq",
   "bboxMode":0,
   "bbox_bottom":52,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9087a029-4b4e-4b78-a0ff-662398585aa5","name":"9087a029-4b4e-4b78-a0ff-662398585aa5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"24e01d23-001f-4101-99c3-20e818b9a1b0","name":"24e01d23-001f-4101-99c3-20e818b9a1b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":53,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c5e191d6-2e82-40de-936a-2412e6a25888","blendMode":0,"displayName":"default","isLocked":false,"name":"c5e191d6-2e82-40de-936a-2412e6a25888","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2726ec81-7884-491c-969a-a037267cea6a","blendMode":0,"displayName":"default","isLocked":false,"name":"2726ec81-7884-491c-969a-a037267cea6a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_slotskinesq",
+  "name":"spr_papelslotskin_esq",
   "nineSlice":null,
   "origin":9,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_slotskinesq",
+    "%Name":"spr_papelslotskin_esq",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_slotskinesq",
+    "name":"spr_papelslotskin_esq",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9087a029-4b4e-4b78-a0ff-662398585aa5","path":"sprites/spr_slotskinesq/spr_slotskinesq.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3c12fd5d-3334-4b36-b1aa-6985cd11407a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24e01d23-001f-4101-99c3-20e818b9a1b0","path":"sprites/spr_papelslotskin_esq/spr_papelslotskin_esq.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4cd21617-68b3-453c-aa15-90187a2ecdbd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

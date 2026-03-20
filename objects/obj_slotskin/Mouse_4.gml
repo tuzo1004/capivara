@@ -7,7 +7,7 @@ if funcao ==  "comprar"
 		estado ="obtida"
 	}
 }
-else
+else if estado = "obtida"
 {
 	global.skin = skin
 }
