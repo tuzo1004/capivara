@@ -23,6 +23,8 @@ if place_meeting(x,y+movv,obj_plataforma) && movv > 0
 		 y+=1
 	}
 	var plat = instance_place(x,y+1,obj_plataforma)
+	audio_pause_sound(snd_pulo)
+	audio_play_sound(snd_pulo,1,false,.85,0,random_range(.75,1))
 	image_yscale = .5
 	plat.colidiu = true
 	movv = -velv
@@ -31,7 +33,10 @@ if place_meeting(x,y+movv,obj_plataforma) && movv > 0
 
 
 scr_movimentacaodaroom()
-
+layer_vspeed("Background",-global.movy*.4)
 y+=movv-global.movy
 show_debug_message(WAVE)
-if bbox_bottom > room_height scr_mudar_de_sala(rm_menu)
+if bbox_bottom > room_height
+{
+	scr_mudar_de_sala(rm_menu)
+}

@@ -33,8 +33,12 @@ switch tipodeplataforma
 	break
 }
 
-if altura-sprite_height/2 > room_height
+if (altura-sprite_height/2 > room_height) && tipodeplataforma != spr_plat_inicio
 {
-	obj_jogo.podecriar = true
-	instance_destroy()
+	var cordx = irandom_range(0+32,room_width-32)
+	var alt = irandom_range(-15,-18)
+	y = alt
+	x = cordx
+	instance_destroy(coletavel)
+	event_perform(ev_create,0)
 }

@@ -7,10 +7,10 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_1BC42F3F1_1_1","path":"rooms/rm_skin/rm_skin.yy",},
-    {"name":"inst_6FC7E8FB1_1","path":"rooms/rm_skin/rm_skin.yy",},
     {"name":"inst_6E54E15A1","path":"rooms/rm_skin/rm_skin.yy",},
     {"name":"inst_4E7A39E9_1","path":"rooms/rm_skin/rm_skin.yy",},
     {"name":"inst_9A50CBC1","path":"rooms/rm_skin/rm_skin.yy",},
+    {"name":"inst_6FC7E8FB1_1","path":"rooms/rm_skin/rm_skin.yy",},
   ],
   "isDnd":false,
   "layers":[

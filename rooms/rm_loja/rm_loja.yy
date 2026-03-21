@@ -7,9 +7,9 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_1BC42F3F1_1","path":"rooms/rm_loja/rm_loja.yy",},
-    {"name":"inst_6FC7E8FB1","path":"rooms/rm_loja/rm_loja.yy",},
     {"name":"inst_9A50CBC","path":"rooms/rm_loja/rm_loja.yy",},
     {"name":"inst_4E7A39E9","path":"rooms/rm_loja/rm_loja.yy",},
+    {"name":"inst_6FC7E8FB1","path":"rooms/rm_loja/rm_loja.yy",},
   ],
   "isDnd":false,
   "layers":[

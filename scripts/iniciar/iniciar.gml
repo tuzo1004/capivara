@@ -9,5 +9,5 @@ global.skins =
 	tamandua: "bloqueada",
 	boto: "bloqueada"
 }
-
+randomise()
 global.skin = "capivara"
